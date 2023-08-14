@@ -1,0 +1,11 @@
+.photo{
+    display: none;
+}
+
+#intro, #map{
+    float: left;
+}
+#choice, footer {
+    clear: both;
+    
+}

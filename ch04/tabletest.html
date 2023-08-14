@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="GET">
+    <fieldset>
+        <legend>로그인</legend>
+        아이디  <input id="id">&nbsp;
+        비밀번호  <input type="password">
+        <input type="submit" value="로그인">
+    </fieldset><br>
+    <fieldset>
+        <legend>가입하기</legend>
+        아이디 *&emsp;&emsp;&emsp;&nbsp;&nbsp;<input id="id"><br>
+        비밀번호 * &emsp;&emsp;&nbsp;<input type="password"><br>
+        비밀번호 확인 *&nbsp;<input type="password"><br>
+        이름 *     &emsp;&emsp;&nbsp;&emsp;&emsp;<input name="name"><br>
+        메일 주소 *&emsp;&emsp;&nbsp;<input type="email"><br>
+        전화번호  *&emsp;&emsp;&nbsp;&nbsp;<input type="tel"><br>
+    </fieldset><br>
+    </form>
+    <form method="GET">
+    <fieldset>
+        <legend>성별</legend>
+        <input type="radio" name="남녀" value="남자" checked>남자
+        <input type="radio" name="남녀" value="여자">여자<br>
+    </fieldset><br>
+    </form>
+    <form method="GET">
+    <fieldset>
+        <legend>고향</legend>
+        <select>
+        <optgroup>
+            <option value="천안시">천안시</option>
+            <option value="부천시">부천시</option>
+        </optgroup>
+        </select>
+    </fieldset>
+    </form>
+    <form method="GET" action="">
+    <fieldset>
+        <legend>부천우리개발원</legend>
+        <textarea rows="10" cols="70"></textarea>
+    </fieldset>
+    </form>
+    <form method="GET">
+    <fieldset style="text-align: center;">
+        <input type="submit" value="가입하기">
+        <input type="reset" value="다시쓰기">
+    </fieldset>
+    </form>
+</body>
+</html>

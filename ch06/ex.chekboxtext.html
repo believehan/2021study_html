@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        tr {
+            font-size: 15px;
+        }
+        .shadow {
+            color: white;
+            text-shadow: 5px 5px 3px black;
+        }
+        span {
+            text-decoration: line-through;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <img src="../ch02/img/귀리.jpg" alt="귀리" width="300" height="200">
+    <h1 class="shadow">세계 10대 슈퍼푸드</h1>
+    <p>슈퍼푸드는 인체 노화 분야의 세계적 권위자인 스티븐 프랫 박사가 2004년에 쓴 ‘난 슈퍼푸드를 먹는다’라는 책의 제목에서 유래된 단어입니다. 
+        슈퍼푸드의 종류와 범위는 명확하게 정해져 있지는 않으나, 열량과 지방함량이 낮고 비타민, 무기질, 항산화 영양소, 섬유소를 포함한 생리활성물질인 "파이토케미컬"을 함유하고 있는 식품들을 의미합니다. 
+        2002년 미국의 <타임>지에서 선정한 세계 10대 슈퍼푸드는 귀리, 블루베리, 녹차, 마늘, 연어, 브로콜리, 아몬드, 적포도주, 시금치, 토마토가 있는데요. 
+        이러한 식품은 심혈관 질환, 고혈압, 당뇨 등의 만성질환과 암 발생을 예방하는데 도움을 주고, 면역력을 강화시키는 등 건강한 몸을 유지하는데 도움이 되는 약과 같은 좋은 식품입니다.</p>
+    <table border="1">
+        <tr>
+            <th>귀리</th><br>
+            <td><p>귀리는 6종 아미노산을 골고루 함유해 근육형성과 신진대사에 중요한 역할을 합니다. <br>
+            귀리에 풍부한 불포화지방산과 리놀렌산은 심장순환계 질환을 예방하고 혈액 속의 콜레스테롤을 낮추어줍니다. <br>
+            양질의 지방산 이외에도 귀리에 풍부한 수용성 식이섬유소인 ‘베타-글루칸’은 콜레스테롤 수치를 낮추어 심장병, 당뇨병 환자에게 도움을 줍니다.</p></td>
+        </tr>
+        <tr>
+            <th>토마토</th><br>
+            <td><p>토마토는 비타민A, C가 풍부한 <span>과일이다.</span> 채소이다. 킬륨과 같은 각종 미네랄은 혈액의 산성도를 낯추는 역할을 해주면 열압을 내리고 튼튼하게 해준다.</p></td>
+        </tr>
+        <tr>
+            <th>블루베리</th><br>
+            <td><p>블루베리는 질병과 노화를 일으키는 유해한 활성 산소를 중화시키는 역할을 하는 보라색 수용성 색소인 ‘안토시아닌’이 풍부합니다. <br>
+            안토시아닌은 동맥 혈관에 침전물 생성을 방지함으로써 심장병과 뇌졸중을 방지하고, 시력에 관여하는 ‘로돕신’이라는 색소체의 재합성을 활성화하여 시력보호에도 효과가 있습니다. <br>
+            뿐만 아니라 비타민C, 비타민E 등 천연 항산화 성분이 풍부해 지방의 연소를 돕고 면역력을 증진시키며 콜레스테롤을 감소시켜 복부비만에 좋은 식품입니다. <br>
+            또한 풍부하게 들어있는 칼륨은 체내 나트륨의 양을 조절해줍니다.</p></td>
+        </tr>
+    </table><br>
+    <fieldset>
+        <input type="radio" name="구매여부" value="구매하기">구매하기
+        <input type="radio" name="구매여부" value="장바구니">장바구니
+    </fieldset><br>
+    <fieldset>
+        <input type="checkbox" name="푸드" value="귀리">귀리
+        <input type="checkbox" name="푸드" value="토마토">토마토
+        <input type="checkbox" name="푸드" value="블루베리">블루베리
+    </fieldset>
+</body>
+</html>

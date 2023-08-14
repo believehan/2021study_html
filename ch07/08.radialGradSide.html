@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div { width: 300px;
+        height: 300px;}
+        .side1{
+            background: darkcyan;
+            background: radial-gradient(circle closest-side at 30% 40%, white, skyblue,rgb(0, 119, 255));
+        }
+        .side2{
+            background: radial-gradient(circle closest-corner at 30% 40%, white, skyblue,rgb(0, 119, 255));
+        }
+        .side3{
+            background: radial-gradient(circle farthest-side at 30% 40%, white, skyblue,rgb(0, 119, 255));
+        }
+        .side4{
+            background: radial-gradient(circle farthest-corner at 30% 40%, white, skyblue,rgb(0, 119, 255));
+        }
+    </style>
+</head>
+<body>
+    <div class="side1"></div><br>
+    <div class="side2"></div><br>
+    <div class="side3"></div><br>
+    <div class="side4"></div><br>
+</body>
+</html>

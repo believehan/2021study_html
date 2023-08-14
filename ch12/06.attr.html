@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .a {
+           color: orangered;
+       }
+        /* a태그에서 속성이 class이고 속성값은 menu로 시작하고 -로 연결된 단어만 */
+        a[class^="menu"] {
+            background-color: rgb(123, 238, 133);
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#" class="menu aa">메뉴1</a></li>
+        <li><a href="#" class="aamenu">메뉴2</a></li>
+        <li><a href="#" class="menu">메뉴3</a></li>
+        <li><a href="#" class="menu-a">메뉴4</a></li>
+    </ul>
+    <h2 class="ddd"> 아무거나</h2>
+</body>
+</html>
